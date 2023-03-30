@@ -1,0 +1,24 @@
+.imgNet{
+    height: 1.4vh;
+}
+
+.containerNet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+@media screen and (min-width:500px){
+    .containerNet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3vw;
+        margin-bottom: 1vh;
+    }
+}
+@media screen and (min-width:500px){
+    .imgNet{
+        height: 2.2vh;
+    }
+}

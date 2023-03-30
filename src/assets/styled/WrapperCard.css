@@ -1,0 +1,43 @@
+.containerCards{
+    height: auto;
+    margin-top:10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    margin-bottom: 20vh;
+
+}
+
+@media screen and (min-width:600px){
+    .containerCards{
+        margin-top: 20vh;
+        margin-bottom: 20vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3vh;
+    }  
+}
+
+.cardsTy{
+    background-color: #101820;
+    width: 60vw;
+    height: 35vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px 20px 0px 20px ;
+}
+
+@media screen and (min-width:600px){
+    .cardsTy{
+        width: 23vw;
+        height: 40vh;
+    }
+}
+

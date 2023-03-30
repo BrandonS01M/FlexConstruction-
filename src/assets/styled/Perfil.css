@@ -1,0 +1,45 @@
+
+
+.footerP{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.titleVist{
+    position: absolute;
+    left: 48.3%;
+    top: 12%;
+}
+
+.textu4{
+    position: absolute;
+    height: 15vh;
+    top: 25vh;
+    right: 75%;
+}
+
+@media screen and (min-width:500px){
+    .textu4{
+        height: 40vh;
+        right: 77%;
+        transform: rotate(-20vw);
+    }
+}
+
+.textu5{
+    position: absolute;
+    height: 15vh;
+    top: 20vh;
+    left: 75%;
+    transform: rotate(30deg);
+}
+
+@media screen and (min-width:500px){
+    .textu5{
+        height: 50vh;
+        left: 71%;
+        transform: rotate(40deg);
+    }
+}
+

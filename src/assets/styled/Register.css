@@ -1,0 +1,91 @@
+.Register-form{
+    margin-top: 2%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 3%;
+    margin: 5% 10%;
+    border: 2px solid #FF7F32;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+@media screen and (min-width:600px)
+{
+    .Register-form{
+        width: 30vw;
+        height: 80vh;
+    }
+}
+
+.containerForm{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+
+.register{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.headerLogin{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10vw 0vw 6vw;
+}
+
+.imgLogoN{
+    height: 5vh;
+}
+
+.redirecciones a{
+    text-decoration: none;
+    font-family: 'Abeezee';
+    font-weight: bold;
+}
+
+.redir{
+    color: #0c0e13;
+    font-size: .6rem;
+}
+
+@media screen and (min-width:500px){
+    .redir{
+        font-size: 1rem;
+    }
+}
+
+.redir:hover{
+    color:#FBC235
+}
+
+.btnSendContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redirAccount{
+    text-decoration: none;
+    font-family: 'Abeezee';
+    font-size: .6rem;
+    color: #0c0e13;
+}
+
+.redirAccount span{
+    font-weight: bold;
+}
+
+.linkRedir{
+    padding-left: 13%;
+    margin-top: 2vh;
+}

@@ -1,0 +1,12 @@
+details{
+    width: 100%;
+    background-color: azure;
+    padding: .5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 2% 0;
+}
+
+summary{
+    align-items: none;
+}

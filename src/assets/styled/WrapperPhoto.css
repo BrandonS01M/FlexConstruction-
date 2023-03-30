@@ -1,0 +1,41 @@
+.containerPhoto{
+display: flex;
+justify-content: center;
+}
+
+.photoPerfil{
+    background-color: rgb(84, 107, 183);
+    height: 160px;
+    width: 160px;
+    border-radius: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 4s;
+    margin-bottom: 10%;
+    margin-top: -15%;
+
+    background-image: url(../img//chrisevans.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+@media screen and (min-width:500px){
+    .photoPerfil{
+        height: 190px;
+        width: 190px;
+    }
+}
+
+@media screen and (min-width:600px){
+    .photoPerfil{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 3%;
+        margin-top: -6%;
+    }
+}

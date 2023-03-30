@@ -1,0 +1,72 @@
+.dataPerfil{
+    display: flex;
+
+}
+
+.containerBtnEdit{
+    display: flex;
+    flex-direction: column;
+    gap: 3%;
+}
+
+
+.containerBtns{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (min-width:700px){
+    .containerBtns{
+        display: flex;
+        gap: 10vh;
+        justify-content: center;
+    }
+    
+}
+
+.btnCanceled{
+    background: red;
+}
+
+.titleEdit{
+    position: absolute;
+    left: 46%;
+    top: 12%;
+}
+
+.redirVist{
+    height: 5vh;
+    width: 90%;
+    border: 2px solid #FF7F32;
+    border-radius:10px;
+    align-self: center;
+    margin-top: 1vh;
+    font-size: auto;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    color: white;
+}
+
+.redirVist:hover{
+    background-color: #FF7F32;
+    color: white;
+}
+
+.naVigate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

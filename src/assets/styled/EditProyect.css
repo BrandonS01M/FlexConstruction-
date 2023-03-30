@@ -1,0 +1,9 @@
+.edit-proyect{
+    align-items: center;
+}
+
+.container-textur{
+    margin: 53% 0 0 -11%;
+    z-index: -1;
+    display : flex;
+}

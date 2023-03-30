@@ -1,0 +1,40 @@
+.login{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.headerLogin{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10vw 0vw 6vw;
+}
+
+.imgLogoN{
+    height: 5vh;
+}
+
+.redirecciones a{
+    text-decoration: none;
+    font-family: 'Abeezee';
+    font-weight: bold;
+}
+
+.redir{
+    color: #0c0e13;
+    font-size: .6rem;
+}
+
+@media screen and (min-width:500px){
+    .redir{
+        font-size: 1rem;
+    }
+}
+
+.redir:hover{
+    color:#FBC235
+}
