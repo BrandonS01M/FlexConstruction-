@@ -1,0 +1,50 @@
+.newPassword-Form{
+    margin-top: 2%;
+    height: 80vh;
+    display: flex;
+    gap: 2vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 3%;
+    margin: 3% 10%;
+    border: 2px solid;
+    color: #FF7F32;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:400px){
+    .newPassword-Form{
+        height: 70vh;
+        margin-top: 7vh;
+    }
+}
+
+.btnActions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+}
+
+.changePassNew{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.containerLock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconLock{
+    height: 3vh;
+}
+
+@media screen and (min-width:500px){
+    .iconLock{
+        margin-top: 2vh;
+        height: 4vh;
+    }
+}

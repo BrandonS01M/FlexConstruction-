@@ -9,6 +9,8 @@ import EditProyect from "../pages/EditProyect";
 import Perfil from "../pages/Perfil";
 import Editperfil from "../pages/EditPerfil";
 import Pay from "../pages/Pay";
+import ChangePass from "../pages/ChangePass";
+import ChangePassNew from "../pages/ChangePassNew";
 
 
 function App() {
@@ -24,7 +26,9 @@ function App() {
                 <Route path="/edit_proyect" element={<EditProyect/>}/>
                 <Route path="/formpay" element={<Pay/>}/>
                 <Route path="/perfil" element={<Perfil/>}/>
-                <Route path="/editperfil" element={<Editperfil/>}/>  
+                <Route path="/editperfil" element={<Editperfil/>}/> 
+                <Route path="/changepass" element={<ChangePass/>}/>
+                <Route path="/changepass_new" element={<ChangePassNew/>}/>
             </Routes>
         </BrowserRouter>
     );

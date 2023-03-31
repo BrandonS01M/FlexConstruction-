@@ -1,0 +1,27 @@
+.changePass-Form{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 3%;
+    margin: 3% 5%;
+    border: 2px solid;
+    color: #FF7F32;
+    flex-wrap: wrap;
+    gap: 2vh;
+}
+
+@media screen and (max-width:500px){
+    .changePass-Form{
+        margin-top: 8vh;
+        height: 70vh;
+    }
+    
+}
+
+.btnActions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+}

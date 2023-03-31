@@ -5,10 +5,17 @@
     flex-direction: column;
     justify-content: center;
     padding: 3% 3%;
-    margin: 5% 10%;
+    margin: 3% 10%;
     border: 2px solid;
     color: #FF7F32;
     flex-wrap: wrap;
+}
+
+@media screen and (max-width:500px){
+    .Login-form{
+        height: 75vh;
+    }
+    
 }
 
 .text-input{

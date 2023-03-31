@@ -15,7 +15,7 @@ function FormLogin() {
             <Text className="text-input" msn="¿Olvidaste tu contraseña?"/>
             
             <div className="linkRedirChange">
-                <Link className="redirChange" to="/" id="redirPass">Quieres cambiar tu contraseña?</Link>
+                <Link className="redirChange" to="/changepass" id="redirPass">Quieres cambiar tu contraseña?</Link>
             </div>
 
             <div className="btnSenCont">

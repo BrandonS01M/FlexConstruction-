@@ -5,7 +5,7 @@ import "../assets/styled/Login.css";
 
 function Login() {
     return ( 
-        <div className="login">
+        <main className="login">
             <header className="headerLogin">
                 <div className="logoContainerHead">
                     <img src={Logo} alt="imagen de aqui" className="imgLogoN"/>
@@ -16,7 +16,7 @@ function Login() {
 
             </header>
             <FormLogin/>
-        </div>
+        </main>
     );
 }
 

@@ -7,7 +7,7 @@ const StyledTitle = styled.h1`
     ${props => props.propsT &&`
         text-align: center;
         margin-bottom: 4%;
-        font-size:1.6rem;
+        font-size:1.4rem;
         transition:2s;
 
         @media screen and (min-width:500px){
