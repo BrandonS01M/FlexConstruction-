@@ -11,6 +11,9 @@ import Editperfil from "../pages/EditPerfil";
 import Pay from "../pages/Pay";
 import ChangePass from "../pages/ChangePass";
 import ChangePassNew from "../pages/ChangePassNew";
+import ChangeEmail from "../pages/ChangeEmail";
+import PasswordChange from "../pages/PasswordChange";
+import AccountSecurity from "../pages/AccountSecurity";
 
 
 function App() {
@@ -29,6 +32,9 @@ function App() {
                 <Route path="/editperfil" element={<Editperfil/>}/> 
                 <Route path="/changepass" element={<ChangePass/>}/>
                 <Route path="/changepass_new" element={<ChangePassNew/>}/>
+                <Route path="/change_email" element={<ChangeEmail/>}/>
+                <Route path="/password_change" element={<PasswordChange/>}/>
+                <Route path="/account_security" element={<AccountSecurity/>}/>
             </Routes>
         </BrowserRouter>
     );

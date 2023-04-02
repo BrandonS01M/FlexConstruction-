@@ -1,4 +1,3 @@
-
 import '../../assets/styled/WrapperTexture.css'
 import Texture1 from '../atoms/Texure1';
 function WrapperTexture() {

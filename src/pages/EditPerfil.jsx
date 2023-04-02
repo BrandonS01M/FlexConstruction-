@@ -9,7 +9,7 @@ function EditPerfil() {
     return ( 
         <>
 
-            <WrapperHeadTy2/>
+            <WrapperHeadTy2 msnT="Editar Perfil"/>
             <Title 
             propsTitleVist
             className="titleEdit"

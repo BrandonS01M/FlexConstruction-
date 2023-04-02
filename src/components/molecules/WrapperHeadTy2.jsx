@@ -2,7 +2,8 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/img/Logos/LogoNormal.svg";
 import Title from "../atoms/Title";
 import '../../assets/styled/Wrappers/WrapperHeadTy2.css'
-function WrapperHeadTy2 () {
+import '../../assets/styled/EfectHover.css';
+function WrapperHeadTy2 ({msnT}) {
     
     const onC = (e) =>{
         e.preventDefault();
@@ -22,7 +23,7 @@ function WrapperHeadTy2 () {
                 </div>
                 <Title
                 propsTitleVist2
-                msn="Editar Perfil"/>
+                msnT={msnT} msn="Editar Perfil"/>
                 <div className="">  
                     <button className="btnImgHam" id="opc" onClick={onC}></button>  
                 </div>

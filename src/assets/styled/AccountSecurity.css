@@ -1,0 +1,10 @@
+.photo{
+    margin-top: 1vh;
+    margin-bottom: -4vh;
+}
+
+@media screen and (min-width:600px){
+    .photo{
+        margin-top: -11vh;
+    }
+}

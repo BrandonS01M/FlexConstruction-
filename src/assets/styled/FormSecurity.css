@@ -1,0 +1,72 @@
+.securityForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formSegurity{
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 3%;
+    margin: -10% 5%;
+    flex-wrap: wrap;
+}
+@media screen and (min-width:600px){
+   .formSegurity{
+    width: 70vh;
+    margin-top: -8vh;
+
+   } 
+}
+
+.textInformations{
+    padding: 3vw 0vh 0vh 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+    border-bottom:2px dashed black;
+    border-top:2px dashed black;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+}
+
+@media screen and (min-width:600px){
+    .textInformations{
+        width: 80%;
+        margin-left: 5.2vh;
+        padding: 2vw 0vh 2vh 0vh;
+    }
+}
+
+.containerBtnsAS{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 3vh;
+}
+
+@media screen and (min-width:600px){
+    .containerBtnsAS{
+        width: 38%;
+        margin-top: 12vh;
+        margin-right: 1.2vh;
+    }
+}
+
+.flex-end{
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media screen and (min-width:600px){
+    .flex-end{
+        margin-left: 2vh;
+    }
+}

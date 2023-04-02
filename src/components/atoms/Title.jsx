@@ -86,12 +86,24 @@ const StyledTitle = styled.h1`
         }
     `}
 
+    ${props => props.propsTitleVist3 && `
+        font-size: .7rem;
+        margin-right:5vh;
+        margin-top:1vh;
+        font-family: 'Abeezee';
+        transition: 3s;
+
+        @media screen and (min-width:500px){
+            display:none;
+        }
+    `}
+
 
 `;
 
 function Title({msn, propsT, propsTitleType2, propsTitletype3, 
     className, propsCards, propsInfo, propsTyInf, propsExe,
-    propsTitleVist, propsTitleVist2}) {
+    propsTitleVist, propsTitleVist2, msnTv2, propsTitleVist3}) {
     return (
         <StyledTitle propsT={propsT}
          propsTitleType2={propsTitleType2}
@@ -103,6 +115,8 @@ function Title({msn, propsT, propsTitleType2, propsTitletype3,
          propsExe={propsExe}
          propsTitleVist={propsTitleVist}
          propsTitleVist2={propsTitleVist2}
+         propsTitleVist3={propsTitleVist3}
+         msn={msnTv2}
          >{msn}</StyledTitle>
     );
 }

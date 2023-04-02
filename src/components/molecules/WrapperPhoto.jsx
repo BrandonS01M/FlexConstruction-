@@ -1,13 +1,13 @@
 import '../../assets/styled/WrapperPhoto.css'
 
-function WrapperPhoto() {
+function WrapperPhoto({className}) {
     return ( 
-        <>
+        <main className={className}>
             <div className="containerPhoto">
                 <div className="photoPerfil">
                 </div>
             </div>
-        </>
+        </main>
      );
 }
 

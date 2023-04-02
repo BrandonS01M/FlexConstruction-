@@ -9,13 +9,13 @@ function EditDataPerfil({msn, className}) {
             <main className="">
                 <div className="dataPerfil">
                     <div className="wrapperPer">       
-                        <WrapperPerfil msnTitleM="Nombre completo" msnSubTitleM="Brandon Sanchez Martinez"/>
+                        <WrapperPerfil msnTitleM="Nombre completo" msnSubTitleM="Brandon Sanchez Martinez" idTitleM="name"/>
                         <WrapperPerfil msnTitleM="Usuario" msnSubTitleM="brandon123"/>
                         <WrapperPerfil msnTitleM="Correo" msnSubTitleM="brandonsma@gmail.com"/>
                         <WrapperPerfil msnTitleM="Telefono" msnSubTitleM="2321-423-123-43"/>
                         <WrapperPerfil msnTitleM="Fecha de Nacimiento" msnSubTitleM="32/98/2313"/>
                     </div>
-                    <div className="containerBtnEdit">
+                    <div className="btnsEdit">
                         <ButtonEdit/>
                         <ButtonEdit/>
                         <ButtonEdit/>

@@ -1,5 +1,6 @@
 .changePass-Form{
     height: 80vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,8 +14,9 @@
 
 @media screen and (max-width:500px){
     .changePass-Form{
-        margin-top: 8vh;
+        margin-top: 5vh;
         height: 70vh;
+        width: 90%;
     }
     
 }
@@ -25,3 +27,5 @@
     align-items: center;
     gap: 2vh;
 }
+
+

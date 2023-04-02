@@ -27,6 +27,12 @@
     }
 }
 
+@media screen and (min-height:700px){
+    .textu4{
+        top: 22vh;
+    }
+}
+
 .textu5{
     position: absolute;
     height: 15vh;

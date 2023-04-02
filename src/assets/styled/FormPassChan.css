@@ -1,0 +1,51 @@
+.formPassChanView{
+    height: 46vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 3%;
+    margin: 3% 10%;
+    flex-wrap: wrap;
+    /* border: 2px solid;
+    color: #FF7F32; */
+}
+
+@media screen and (min-width:500px){
+    .formPassChanView{
+        height: 71vh;
+        width: 40%;
+        margin: -8% 29%;
+    }
+}
+
+.textContainer{
+    padding: 3vw 0vh 0vh 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+    border-bottom:2px dashed black;
+    border-top:2px dashed black;
+    margin-bottom: 5vh;
+    margin-top: 2vh;
+}
+
+@media screen and (min-width:500px){
+    .textContainer{
+        padding: 1vh;
+    }
+}
+
+.containerBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:500px){
+    .containerBtn{
+        gap: 2vh;
+        width: 100%;
+        justify-content: center;
+    }
+}

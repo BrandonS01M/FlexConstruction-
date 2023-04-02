@@ -1,0 +1,127 @@
+.headerChangeEmail{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 5.5vw 0vw 6vw;
+    box-shadow: 1px 1px 20px 1px rgba(0,0,0,0.2);
+}
+
+
+.imgLogoN{
+    height: 5vh;
+}
+
+.redirecciones a{
+    text-decoration: none;
+    font-family: 'Abeezee';
+    font-weight: bold;
+}
+
+.redir{
+    color: #0c0e13;
+    font-size: .6rem;
+}
+
+@media screen and (min-width:500px){
+    .redir{
+        font-size: 1rem;
+    }
+}
+
+.redir:hover{
+    color:#FBC235
+}
+
+
+.redirVist{
+    height: 5vh;
+    width: 90%;
+    border: 2px solid #FF7F32;
+    border-radius:10px;
+    align-self: center;
+    margin-top: 1vh;
+    font-size: auto;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    color: white;
+}
+
+.redirVist:hover{
+    background-color: #FF7F32;
+    color: white;
+}
+
+.naVigate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footerTexture{
+    position: absolute;
+    bottom: 0;
+}
+
+.contenedorTexture{
+    display: flex;
+    padding: 0 0 0 0 ;
+}
+
+.changeEmailForm{
+    margin-top: 2%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3% 3%;
+    margin: -13% 12%;
+    /* border: 2px solid;
+    color: #FF7F32; */
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:500px){
+    .changeEmailForm{
+        height: 75vh;
+        width: 32%;
+        margin: -13% 0% 0% 31%;
+    }
+    
+}
+
+.containerBtnEdit{
+
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+@media screen and (min-width:500px){
+    .containerBtnEdit{
+        gap: 4vh;
+    }
+    
+}
+
+.titleEdit{
+    margin-left: -3vh;
+}
+
+
+

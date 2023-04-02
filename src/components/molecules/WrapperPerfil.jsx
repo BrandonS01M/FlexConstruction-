@@ -1,11 +1,11 @@
 import TitleMedium from "../atoms/TitleMedium";
-import SubTitleMedium from "../atoms/SubTitleMedium"
+import InputsC from "../atoms/InputsC";
 
-function WrapperPerfil({msnTitleM, msnSubTitleM}) {
+function WrapperPerfil({msnTitleM, idTitleM}) {
     return ( 
         <>
-            <TitleMedium msn={msnTitleM}/>
-            <SubTitleMedium msn={msnSubTitleM}/>
+            <TitleMedium msn={msnTitleM} id={idTitleM}/>
+            <InputsC propsInputsChange/>
         </>
      );
 }

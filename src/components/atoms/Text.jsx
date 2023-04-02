@@ -12,6 +12,14 @@ const StyledText = styled.p`
         font-size: 1rem;
        }
     `}
+    ${props => props.propsTexL2 && `
+       color: black;
+       font-size: .68rem; 
+
+       @media screen and (min-width:500px){
+        font-size: 1rem;
+       }
+    `}
 
     ${props => props.propsFooter && `
         font-size: .45rem;
@@ -30,12 +38,13 @@ const StyledText = styled.p`
     `}
 `;
 
-function Text({className, msn, propsTexL, propsFooter, propsExe}) {
+function Text({className, msn, propsTexL, propsFooter, propsExe,propsTexL2}) {
     return (
         <StyledText className={className}
         propsTexL={propsTexL} 
         propsFooter={propsFooter}
         propsExe={propsExe}
+        propsTexL2={propsTexL2}
         >{msn}</StyledText>
     );
 }

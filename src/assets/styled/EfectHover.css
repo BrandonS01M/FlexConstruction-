@@ -1,31 +1,9 @@
-.dataPerfil{
+.containerOpc{
+    width: 100%;
+    position: fixed;
     display: flex;
-
-}
-
-.containerBtns{
-    margin-top: 3vh;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-@media screen and (min-width:700px){
-    .containerBtns{
-        display: flex;
-        gap: 10vh;
-        justify-content: center;
-    }
+    justify-content: end;
     
-}
-
-.btnCanceled{
-    background: red;
-}
-
-.titleEdit{
-    position: absolute;
-    left: 46%;
-    top: 12%;
 }
 
 .redirVist{

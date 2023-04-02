@@ -4,9 +4,9 @@ import TextureA2 from "../../assets/img/Texture2.png";
 const StyledTexture2 = styled.img`
     width: 100%;
     height: 300px;
+    background-repeat:no-repeat;
     transition: 4s;
-
-
+    
     @media screen and (min-width:500px){
         width: 100%;
         height: 400px;

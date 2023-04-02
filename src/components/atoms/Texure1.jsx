@@ -6,7 +6,7 @@ const StyledTexture1 = styled.div`
     background-color: #242439;
     transition: 4s;
     border-radius: 0px 0px 50px 50px;
-    margin-right: 20px;
+    margin-right: 20px; 
 
     @media (min-width: 470px){
         height: 130px;
@@ -21,6 +21,39 @@ const StyledTexture1 = styled.div`
     }
 
 
+    ${props => props.propsTextureOne && `
+        height: 24vh;
+        width: 22vw;
+        background-color: #242439;
+        transition: 4s;
+        border-radius: 50px 50px 0px 0px;
+        margin-left: 20%;
+
+        @media (min-width: 650px){
+        height: 40vh;
+        width: 10vw;
+        margin-right: 40px;
+    }
+    `}
+    ${props => props.propsTextureTwo && `
+        height: 20vh;
+        width: 60px;
+        background-color: #242439;
+        transition: 4s;
+        border-radius: 50px 50px 0px 0px;
+        margin-right: 20px;
+    `}
+    ${props => props.propsTextureThree && `
+        height: 20vh;
+        width: 60px;
+        background-color: #242439;
+        transition: 4s;
+        border-radius: 50px 50px 0px 0px;
+        margin-right: 20px;
+    `}
+    
+
+
     /* @media screen and (min-width:600px){
         .textureprin{
             height: 220px;
@@ -31,9 +64,13 @@ const StyledTexture1 = styled.div`
 `
 ;
 
-function Texture1() {
+function Texture1({propsTextureOne, propsTextureTwo, propsTextureThree, className}) {
     return ( 
-        <StyledTexture1  className="textureprin" alt="Textura principal"/>
+        <StyledTexture1 alt="Textura principal"
+            propsTextureOne={propsTextureOne}
+            propsTextureTwo={propsTextureTwo}
+            propsTextureThree={propsTextureThree}
+            className={className}/>
      );
 }
 
