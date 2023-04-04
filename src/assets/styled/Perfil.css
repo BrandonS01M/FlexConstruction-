@@ -1,10 +1,66 @@
 
-
-.footerP{
+.footerPer{
     position: absolute;
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     bottom: 0;
+    height: 21vh;
+    background-color: none;
+    background-image: url(../img/TextureFoo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
+.text1{
+    height: 12vh;
+    rotate: 185deg;
+}
+.text2{
+    height: 12vh;
+}
+
+@media screen and (min-width:1000px){
+    .text1{
+        height: 42vh;
+        margin-top: 23vh;
+        rotate: 150deg;
+    }
+    .text2{
+        height: 42vh;
+        rotate: 40deg;
+        margin-top: 20vh;
+        margin-left: 60vh;
+    }
+    .footerPer{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (min-width:600px){
+    .footerPer{
+        height: 37vh;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .footerPer{
+        height: 50vh;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .footerPer{
+        height: 60vh;
+    }
+}
+@media screen and (min-width:1300px){
+    .footerPer{
+        height: 70vh;
+    }
+}
+
 
 .titleVist{
     position: absolute;

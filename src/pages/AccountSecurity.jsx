@@ -13,7 +13,7 @@ function AccountSecurity() {
             <Title 
             propsTitleVist
             className="titleVisit"
-            msn="Cambio de Contraseña"/>
+            msn="Seguridad de Cuenta"/>
             <WrapperPhoto className="photo"/>
             <FormSecurity/>
         </>

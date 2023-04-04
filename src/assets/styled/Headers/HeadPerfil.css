@@ -1,0 +1,123 @@
+.headPerfil{
+    height: 8vh;
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0vw 10vw 0vw 6vw;
+}
+
+@media screen and (min-width:500px){
+    .headPerfil{
+        height: 9vh;
+        padding: 0vw 5vw 0vw 6vw;
+    }
+}
+
+@media screen and (max-width:200px){
+    .headPerfil{
+        width: 100%;
+        height: 9vh;
+        padding: 0vw 5vw 0vw 6vw;
+    }
+}
+
+
+.imgLogoN{
+    height: 5vh;
+}
+@media screen and (min-width:500px){
+    .imgLogoN{
+        height: 6vh;
+    }
+}
+
+.btnImgHam{
+    height: 3vh;
+    width: 3vh;
+    border: none;
+    background: none;
+    background-image: url(../../img//MenuHambuerger.svg);
+    background-size: cover;
+}
+
+@media screen and (min-width:500px){
+    .btnImgHam{
+        height: 3.5vh;
+        width: 3.5vh;
+    }
+}
+
+.opcNavigatePerfil{
+    height: 25vh;
+    width: 15vh;
+    border-radius: 20px;
+    margin-right: 10vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0, 0.4);
+    display: none;
+    overflow: hidden;
+    position: fixed;
+}
+@media screen and (min-width:500px){
+    .opcNavigatePerfil{
+        height: 25vh;
+        width: 15vh;
+        margin-right: 5vw; 
+    }
+}
+
+.naVigate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+}
+
+.containerOpcPerfil{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: end;
+}
+
+.redirVistPerfil{
+    height: 5vh;
+    width: 90%;
+    border: 2px solid #FF7F32;
+    border-radius:10px;
+    align-self: center;
+    margin-top: 1vh;
+    font-size: auto;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover{
+    color: white;
+}
+
+.redirVistPerfil:hover{
+    background-color: #FF7F32;
+    color: white;
+}
+
+.naVigate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

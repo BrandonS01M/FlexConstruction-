@@ -4,6 +4,20 @@
     width: 100%;
 }
 
+@media screen and (min-width:600px){
+    .dataPerfil{
+        align-items: center;
+    }
+}
+
+
+
 .wrapperPer{
     margin-right: 20%;
+}
+
+@media screen and (min-width:600px){
+    .wrapperPer{
+        margin-right: 40v;
+    }
 }

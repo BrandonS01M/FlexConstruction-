@@ -5,7 +5,7 @@ function WrapperPerfil({msnTitleM, idTitleM}) {
     return ( 
         <>
             <TitleMedium msn={msnTitleM} id={idTitleM}/>
-            <InputsC propsInputsChange/>
+            <InputsC propsInputsChange />
         </>
      );
 }

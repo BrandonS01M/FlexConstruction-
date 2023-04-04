@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import Logo from "../../assets/img/Logos/LogoNormal.svg";
 import Title from "../atoms/Title";
-import '../../assets/styled/Headers/HeadSecurity.css';
+import '../../assets/styled/Headers/HeadPerfil.css';
 
-function HeadSecurity() {
+function HeadPerfil() {
     const onC = (e) =>{
         e.preventDefault();
-        let x = document.querySelector(".opcNavigateSecurity");
+        let x = document.querySelector(".opcNavigatePerfil");
         if(x.style.display === 'none'){
             x.style.display = 'block'
         }
@@ -15,37 +15,41 @@ function HeadSecurity() {
         }
     }
     return ( 
-        <> 
-                <header className="headSecurity">
-                    <div className="logoContainerHeadSecurity">
+        <>
+
+                <header className="headPerfil">
+                    <div className="logoContainerHeadPerfil">
                         <img src={Logo} className="imgLogoN"/>
                     </div>
                     <Title
                     propsTitleVist3
-                    msn="Seguridad de cuenta"/>
+                    msn="Perfil"/>
                     <div className="">  
                         <button className="btnImgHam" id="opc" onClick={onC}></button>  
                     </div>
                 </header>
 
-            <div className="containerOpcSecurity">
-                <div className="opcNavigateSecurity" id="opcNSecurity">
+            <div className="containerOpcPerfil">
+                <div className="opcNavigatePerfil" id="opcNPerfil">
                     <nav className="naVigate">
-                        <div className="redirVistSecurity">
-                            <Link className="links" to="/perfil">Perfil</Link>
+                        <div className="redirVistPerfil">
+                            <Link className="links" to="/editperfil">Editar perfil</Link>
                         </div>
-                        <div className="redirVistSecurity">
+                        <div className="redirVistPerfil">
                             <Link className="links" to="/account_security">Seguridad</Link>
                         </div>
-                        <div className="redirVistSecurity">
+                        <div className="redirVistPerfil">
+                            <Link className="links" to="/">Volver</Link>
+                        </div>
+                        <div className="redirVistPerfil">
                             <Link className="links" to="/">Cerrar Sesion</Link>
                         </div>
                     </nav>  
                 </div>
             </div>
-
+        
         </>
      );
 }
 
-export default HeadSecurity;
+export default HeadPerfil;

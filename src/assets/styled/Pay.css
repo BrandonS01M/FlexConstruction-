@@ -1,8 +1,9 @@
 .pay_Form{
     border: 2px solid #FF7F32;
     width: 80%;
-    height: 80vh;
-    margin-top: 7%;
+    height: 70vh;
+    margin-top: 13%;
+    margin-left: 11%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -16,8 +17,11 @@
 
 @media screen and (min-width:500px){
     .pay_Form{
-        margin-top: 3%;
+        margin-top: 6%;
         width: 30%;
+        margin-left: 35%;
+        position: absolute;
+        z-index: 0;
 
     }
 }
@@ -62,6 +66,29 @@
 }
 .btnClose{
     position: relative;
-    top:-7vh;
+    top:-4vh;
     left:26vw;
+}
+
+
+.radio{
+    display: flex;
+    gap: 1vh;
+    margin-left: 2vh;
+    align-items: center;
+}
+
+input[type="radio"]{
+    appearance: none;
+    background-color: white;
+    height: 2.2vh;
+    width: 2.2vh;
+    border: .2vh solid #FF7F32;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked{
+    background-image: radial-gradient(darkorange 0%, darkorange 50%, transparent 50%, transparent );
+    color: #FF7F32;
 }

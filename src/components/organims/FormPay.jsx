@@ -44,7 +44,10 @@ function FormPay() {
                             <Inputs placeholder="Correo Electronico"/>
                         </div>
 
-                        <div className=""></div>
+                        <div className="radio">
+                            <input type="radio"  id="idRadio" className="idRadioC" name="radio"/>
+                            <label htmlFor="idRadio">Recordar Tarjeta</label>
+                        </div>
                         <div className="">
                             <Buttons
                             propsBtnPay

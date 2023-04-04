@@ -110,12 +110,17 @@ ${props => props.propsBtnSave2 && `
     ${props => props.propsBtnPay && `
         background-color:#101820;
         width:65vw;
+        height:6vh;
+        font-weight:600;
         border:2px solid #101820;
         font-size:1.2rem;
         color:#FF7F32;
+        border-radius:10px;
 
         &:hover{
-            background-color:#101820;
+            background-color:#FF7F32;
+            border:2px solid #FF7F32;
+            color: white;
         }
 
         

@@ -4,9 +4,9 @@ import WrapperPerfil from "../molecules/WrapperPerfil";
 import '../../assets/styled/EditDataPerfil.css'
 
 
-function EditDataPerfil({msn, className}) {
+function EditDataPerfil() {
     return (
-            <main className="">
+            <main className="containerDataPerfil">
                 <div className="dataPerfil">
                     <div className="wrapperPer">       
                         <WrapperPerfil msnTitleM="Nombre completo" msnSubTitleM="Brandon Sanchez Martinez" idTitleM="name"/>

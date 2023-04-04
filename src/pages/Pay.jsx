@@ -1,14 +1,14 @@
-import Header from "../components/organims/Header";
+import HeadPay from "../components/organims/HeadPay";
 import FormPay from "../components/organims/FormPay";
 import '../assets/styled/Pay.css'
 
 function Pay() {
     return ( 
         <>
-            <div className="pay">
-                <Header/>
-                <FormPay/>
-            </div>
+           
+                <HeadPay/> 
+                <FormPay className="formPay"/>
+          
 
             
         </>

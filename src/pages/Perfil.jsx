@@ -1,35 +1,29 @@
-import DataPerfil from "../components/organims/DataPerfil";
 import WrapperPhoto from "../components/molecules/WrapperPhoto";
 import WrapperTexture from "../components/molecules/WrapperTexture";
-import Texture2 from "../components/atoms/Texture2";
-import WrapperTitle from "../components/molecules/WrapperTitle"
-import WrapperHead from "../components/molecules/WrapperHead";
+import WrapperTitle from "../components/molecules/WrapperTitle";
+import HeadPerfil from "../components/organims/HeadPerfil";
+import DataInfo from "../components/organims/DataInfo";
 import Title from "../components/atoms/Title";
-import Texture4 from "../assets/img/Texture4.svg";
-import Texture5 from "../assets/img/Texture5.svg"
-import '../assets/styled/Perfil.css'
+import TextureC from "../assets/img/TextureCircle.svg";
+import '../assets/styled/Perfil.css';
 
-
-function Perfil({msn}) {
+function Perfil() {
     return ( 
         <>
-            <WrapperHead/>
+            <HeadPerfil/>
             <WrapperTexture/>
             <Title
             propsTitleVist
             className="titleVist" 
             msn="Perfil"/>
-            <WrapperTitle
-            />
+            <WrapperTitle/>
             <WrapperPhoto/>
-            <DataPerfil/>
-
-            <footer className="footerP">
-                <img src={Texture4} className="textu4"/>
-                    <Texture2 className="imgFond"/>
-                <img src={Texture5} className="textu5"/>
+            <DataInfo/>
+            <footer className="footerPer">
+                <img src={TextureC} className="text1" />
+                <img src={TextureC} className="text2" />
             </footer>
-        
+
         </>
      );
 }
