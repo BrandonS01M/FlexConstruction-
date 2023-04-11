@@ -1,12 +1,12 @@
-import Header from "../components/organims/Header";
+import HeaderD from "../components/organims/HeaderD";
 import MainHome from "../components/organims/MainHome";
 
 function Home() {
     return (
-        <div>
-            <Header/>
+        <>
+            <HeaderD/>
             <MainHome/>
-        </div>
+        </>
     );
 }
 

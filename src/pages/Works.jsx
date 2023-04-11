@@ -1,10 +1,10 @@
-import Header from "../components/organims/Header";
+import HeaderD from "../components/organims/HeaderD";
 import MainWorks from "../components/organims/MainWorks";
 
 function Works() {
     return (
         <div>
-            <Header/>
+            <HeaderD/>
             <MainWorks/>
         </div>
     );

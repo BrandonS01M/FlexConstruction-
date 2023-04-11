@@ -1,0 +1,23 @@
+.texture{
+    width: 100%;
+    height: 10vh;
+    margin: 0;
+    background-image: url(../img/Rectangulo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1920px) {
+    .texture{
+        width: 100%;
+        height: 30vh;
+        margin: 0 0 0 0;
+        background-image: url(../img/Rectangulo.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+    }
+}

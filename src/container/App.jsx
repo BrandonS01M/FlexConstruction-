@@ -14,6 +14,12 @@ import ChangePassNew from "../pages/ChangePassNew";
 import ChangeEmail from "../pages/ChangeEmail";
 import PasswordChange from "../pages/PasswordChange";
 import AccountSecurity from "../pages/AccountSecurity";
+import Proyect from "../pages/Proyect";
+import EditWorks from "../pages/EditWorks";
+import EditWork from "../pages/EditWork";
+import CreateWork from "../pages/CreateWork";
+import Administration from "../pages/Administration";
+
 
 
 function App() {
@@ -35,6 +41,11 @@ function App() {
                 <Route path="/change_email" element={<ChangeEmail/>}/>
                 <Route path="/password_change" element={<PasswordChange/>}/>
                 <Route path="/account_security" element={<AccountSecurity/>}/>
+                <Route path="/proyect" element={<Proyect/>}/>
+                <Route path="/edit_work" element={<EditWork/>}/> 
+                <Route path="/create_work" element={<CreateWork/>}/>
+                <Route path="/edit_works" element={<EditWorks/>}/>
+                <Route path="/administration" element={<Administration/>}/>
             </Routes>
         </BrowserRouter>
     );

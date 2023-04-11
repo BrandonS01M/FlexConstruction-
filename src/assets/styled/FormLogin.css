@@ -51,8 +51,11 @@
 }
 
 .linkRedir{
-    padding-left: 13%;
+    margin-left: -13%;
     margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .linkRedirChange{
